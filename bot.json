@@ -1,0 +1,50 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Can", "you", "help", "me", "with", "outfits"],
+    "bot_response": "Definitely. Feel free to describe what you want.",
+    "required_words": ["help", "me","with","outfits"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "don't", "like", "the", "outfit"],
+    "bot_response": "I am sorry for that. Please elaborate what you want.",
+    "required_words": ["don't", "like"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Design", "a", "outfit","for","me"],
+    "bot_response": "Sure, please elaborate what you want.",
+    "required_words": ["design", "outfit"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "want", "a","black","dress","with","high","heels"],
+    "bot_response": "Sure. Showing you what I got",
+    "required_words": ["dress", "heels"]
+  }
+]
